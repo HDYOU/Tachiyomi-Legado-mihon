@@ -338,7 +338,7 @@ jobs:
           # --exclude-task checkStandardReleaseDuplicateClasses \
           # --exclude-task checkStandardReleaseAarMetadata  \
           # --warning-mode all  \
-          ./gradlew assembleDevPreview -x test  --build-cache --parallel --no-daemon
+          ./gradlew assembleStandardPreview -x test  --build-cache --parallel --no-daemon
 
       # - name: Set Sign Key
       #   run: |
